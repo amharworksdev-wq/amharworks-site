@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#120022"/>
+      <stop offset="0.5" stop-color="#1D0938"/>
+      <stop offset="1" stop-color="#120022"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="400" y1="200" x2="800" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9A46FF"/>
+      <stop offset="1" stop-color="#45C8FF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="200" cy="120" r="180" fill="#9A46FF" opacity="0.08"/>
+  <circle cx="1000" cy="520" r="220" fill="#45C8FF" opacity="0.06"/>
+  <path d="M600 180 L680 280 L640 400 L560 400 L520 280 Z" fill="url(#accent)" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="600" cy="270" r="18" fill="#FFC83D"/>
+  <text x="600" y="480" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#FFFFFF" letter-spacing="8">AMHAR WORKS</text>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#FFC83D" letter-spacing="4">Creating Magical Mobile Games</text>
+</svg>
